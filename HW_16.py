@@ -69,6 +69,6 @@ if column == 'CNN':
     plot_history(history)
 
 elif column == 'VGG16':
-    with open('.devcontainer/history_VGG16.pkl', 'rb') as f:
+    with open('history_VGG16.pkl', 'rb') as f:
         history = pickle.load(f)
     plot_history(history)
