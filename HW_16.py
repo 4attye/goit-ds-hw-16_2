@@ -13,7 +13,7 @@ models = ['CNN', 'VGG16']
 
 st.title("Класифікація зображень за допомогою нейронної мережі")
 
-uploaded_file = st.file_uploader("Виберіть зображення...", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Завантажте зображення...", type=["jpg", "jpeg", "png"])
 
 fashion_classes = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal','Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 
